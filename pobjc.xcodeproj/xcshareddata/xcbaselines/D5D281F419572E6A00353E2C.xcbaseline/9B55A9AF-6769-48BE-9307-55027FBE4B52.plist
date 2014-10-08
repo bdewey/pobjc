@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>classNames</key>
+	<dict>
+		<key>IMAvlTreeTests</key>
+		<dict>
+			<key>testInsertionAndLookupPerformance</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>1.2699999809265137</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Jun 23, 2014, 3:12:49 PM</string>
+					<key>maxPercentRelativeStandardDeviation</key>
+					<real>10</real>
+				</dict>
+			</dict>
+		</dict>
+		<key>IMFingerTreeTests</key>
+		<dict>
+			<key>testPerformanceDequeue</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.46000000834465027</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Jun 22, 2014, 11:27:27 PM</string>
+					<key>maxPercentRelativeStandardDeviation</key>
+					<real>10</real>
+				</dict>
+			</dict>
+			<key>testPerformanceEnqueue</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.93000000715255737</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Jun 22, 2014, 11:27:35 PM</string>
+					<key>maxPercentRelativeStandardDeviation</key>
+					<real>10</real>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>performanceMetricIdentifiers</key>
+	<dict/>
+</dict>
+</plist>
